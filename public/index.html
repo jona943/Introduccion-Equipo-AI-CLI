@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GreenVet - Cuidado veterinario premium con tecnología y amor para tus mascotas. Base negro y verde.">
+  <title>GreenVet | Clínica Veterinaria & Tienda Premium</title>
+  
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header id="main-header" class="header">
+    <div class="container header-container">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-icon"><i data-lucide="paw-print"></i></span>
+        <span class="logo-text">Green<span class="text-accent">Vet</span></span>
+      </a>
+      
+      <nav class="nav" id="main-nav">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#productos" class="nav-link">Productos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="cart-toggle-btn" class="icon-btn cart-btn" aria-label="Ver carrito">
+          <i data-lucide="shopping-bag"></i>
+          <span id="cart-badge" class="badge">0</span>
+        </button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Abrir menú">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="tagline">🐾 Clínica y Boutique Veterinaria</span>
+        <h1 class="hero-title">Cuidado de otro nivel para tu mejor amigo</h1>
+        <p class="hero-description">
+          Combinamos tecnología médica avanzada y un amor incondicional para ofrecer la mejor atención de salud y los mejores productos premium para tus mascotas.
+        </p>
+        <div class="hero-actions">
+          <a href="#productos" class="btn btn-primary">Ver Productos <i data-lucide="arrow-right"></i></a>
+          <a href="#contacto" class="btn btn-secondary">Agendar Cita</a>
+        </div>
+        
+        <!-- Quick stats -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">10k+</span>
+            <span class="stat-label">Mascotas Felices</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">15+</span>
+            <span class="stat-label">Especialistas</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">24/7</span>
+            <span class="stat-label">Urgencias</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <img src="images/hero.jpg" alt="Veterinaria y mascotas felices en GreenVet" class="hero-image">
+          <div class="image-accent-border"></div>
+          <div class="floating-badge">
+            <i data-lucide="shield-check" class="badge-icon"></i>
+            <div>
+              <p class="badge-title">Calidad Certificada</p>
+              <p class="badge-desc">Cuidado 5 estrellas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicios" class="services section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">¿Qué hacemos?</span>
+        <h2 class="section-title">Servicios especializados para consentirlos</h2>
+        <p class="section-desc">Atención integral y cuidados diseñados a la medida de las necesidades específicas de tu mascota.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="stethoscope"></i></div>
+          <h3 class="service-title">Medicina Veterinaria</h3>
+          <p class="service-desc">Consultas generales, cirugías, vacunas y diagnósticos de alta precisión con especialistas dedicados.</p>
+          <a href="#contacto" class="service-link">Saber más <i data-lucide="chevron-right"></i></a>
+        </div>
+        <!-- Service 2 -->
+        <div class="service-card highlighted">
+          <div class="service-icon"><i data-lucide="sparkles"></i></div>
+          <h3 class="service-title">Spa & Estética</h3>
+          <p class="service-desc">Baños medicinales, corte de pelo estilizado y cuidado dental para que luzcan radiantes y saludables.</p>
+          <a href="#contacto" class="service-link">Saber más <i data-lucide="chevron-right"></i></a>
+        </div>
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="heart-pulse"></i></div>
+          <h3 class="service-title">Urgencias 24h</h3>
+          <p class="service-desc">Disponibilidad absoluta ante cualquier percance médico. Tu tranquilidad es nuestro compromiso principal.</p>
+          <a href="tel:+50688888888" class="service-link phone-link">Llamar ahora <i data-lucide="phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section (Attractive & Dynamic) -->
+  <section id="productos" class="products-section section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Nuestra Boutique</span>
+        <h2 class="section-title">Productos Premium Seleccionados</h2>
+        <p class="section-desc">Solo lo mejor para nutrir, entretener y proteger a tus mascotas. Calidad garantizada.</p>
+      </div>
+
+      <!-- Categories Filter -->
+      <div class="filters-container">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="alimento">Nutrición</button>
+        <button class="filter-btn" data-category="cuidado">Higiene y Cuidado</button>
+        <button class="filter-btn" data-category="tecnologia">Tecnología y Diversión</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Rendered dynamically by JS modules -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact/Booking Section -->
+  <section id="contacto" class="contact section-padding">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <span class="section-subtitle">Contacto</span>
+        <h2 class="section-title">Estamos listos para recibirte</h2>
+        <p class="contact-desc">
+          Reserva una cita o visítanos directamente en nuestra clínica. Respondemos tus consultas de inmediato.
+        </p>
+        
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-icon"><i data-lucide="map-pin"></i></span>
+            <div>
+              <h4>Dirección</h4>
+              <p>Av. Principal Mascota #456, San José, Costa Rica</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon"><i data-lucide="phone-call"></i></span>
+            <div>
+              <h4>Teléfono de Contacto</h4>
+              <p>+506 2255-8888 / +506 8888-8888</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon"><i data-lucide="clock"></i></span>
+            <div>
+              <h4>Horario de Atención</h4>
+              <p>Clínica: 24 Horas / Tienda: Lunes a Sábado 8:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <h3>Agenda una cita</h3>
+        <p>Completa el formulario y te confirmaremos la cita de inmediato.</p>
+        
+        <form id="appointment-form" class="appointment-form">
+          <div class="form-group">
+            <label for="pet-owner">Tu Nombre completo</label>
+            <input type="text" id="pet-owner" required placeholder="Ej. Juan Pérez">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pet-name">Nombre de tu Mascota</label>
+              <input type="text" id="pet-name" required placeholder="Ej. Max">
+            </div>
+            <div class="form-group">
+              <label for="pet-type">Tipo de Mascota</label>
+              <select id="pet-type">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="ave">Ave</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="app-date">Fecha Deseada</label>
+            <input type="date" id="app-date" required>
+          </div>
+          <div class="form-group">
+            <label for="app-notes">Notas / Síntomas / Razón de consulta</label>
+            <textarea id="app-notes" rows="3" placeholder="Describe brevemente el motivo de la visita..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-block">Confirmar Reserva</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon"><i data-lucide="paw-print"></i></span>
+          <span class="logo-text">Green<span class="text-accent">Vet</span></span>
+        </a>
+        <p class="footer-desc">El centro de salud y diversión definitivo para tus fieles compañeros. Calidad veterinaria con enfoque verde y sostenible.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="#" class="social-icon" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="#" class="social-icon" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links-col">
+        <h3>Enlaces Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#productos">Boutique</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h3>Servicios</h3>
+        <ul class="footer-links">
+          <li><a href="#servicios">Consulta Especializada</a></li>
+          <li><a href="#servicios">Hospitalización 24h</a></li>
+          <li><a href="#servicios">Estética Canina & Felina</a></li>
+          <li><a href="#productos">Accesorios Premium</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3>Boletín Informativo</h3>
+        <p>Recibe consejos de salud pet-friendly y ofertas exclusivas de la boutique.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Ingresa tu correo" required aria-label="Correo de suscripción">
+          <button type="submit" class="newsletter-btn" aria-label="Enviar"><i data-lucide="send"></i></button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 GreenVet. Todos los derechos reservados. Diseñado con pasión.</p>
+        <div class="footer-terms">
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Política de Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shopping Cart Side Drawer -->
+  <div id="cart-drawer" class="cart-drawer">
+    <div class="cart-drawer-overlay" id="cart-overlay"></div>
+    <div class="cart-drawer-content">
+      <div class="cart-drawer-header">
+        <h3><i data-lucide="shopping-cart"></i> Carrito de Compras</h3>
+        <button id="cart-close-btn" class="close-btn" aria-label="Cerrar carrito"><i data-lucide="x"></i></button>
+      </div>
+      
+      <div class="cart-items-container" id="cart-items-container">
+        <!-- Cart items will be injected here by JS -->
+        <div class="empty-cart-message">
+          <i data-lucide="shopping-basket" class="empty-cart-icon"></i>
+          <p>Tu carrito está vacío</p>
+          <a href="#productos" id="btn-start-shopping" class="btn btn-secondary btn-sm">Empezar a comprar</a>
+        </div>
+      </div>
+      
+      <div class="cart-drawer-footer">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">$0.00</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Envío</span>
+          <span class="free-shipping">Gratis</span>
+        </div>
+        <div class="cart-summary-row total-row">
+          <span>Total</span>
+          <span id="cart-total">$0.00</span>
+        </div>
+        
+        <button id="checkout-btn" class="btn btn-primary btn-block checkout-btn" disabled>
+          Proceder al Pago <i data-lucide="credit-card"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- JS Modules Entry Point -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

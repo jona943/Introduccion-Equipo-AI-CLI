@@ -1,0 +1,13 @@
+{
+  "name": "veterinaria-verde-negro",
+  "version": "1.0.0",
+  "description": "Sitio web premium de Veterinaria (Base Negro y Verde)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
