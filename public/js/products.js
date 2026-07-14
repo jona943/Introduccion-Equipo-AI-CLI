@@ -7,7 +7,7 @@ export const products = [
     category: 'alimento',
     price: 34.99,
     tag: 'Más Vendido',
-    image: 'images/dog_food.jpg',
+    image: 'public/images/dog_food.jpg',
     desc: 'Nutrición premium para perros adultos con ingredientes 100% orgánicos.'
   },
   {
@@ -16,7 +16,7 @@ export const products = [
     category: 'cuidado',
     price: 18.50,
     tag: 'Ecológico',
-    image: 'images/shampoo.jpg',
+    image: 'public/images/shampoo.jpg',
     desc: 'Fórmula suave de lavanda y cedro para un pelaje sedoso, incluye cepillo de cerdas naturales.'
   },
   {
@@ -25,7 +25,7 @@ export const products = [
     category: 'tecnologia',
     price: 49.99,
     tag: 'Tecnología',
-    image: 'images/pet_toy.jpg',
+    image: 'public/images/pet_toy.jpg',
     desc: 'Estimulación física y mental con movimiento inteligente, luces LED suaves y recargable.'
   }
 ];
